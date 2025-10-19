@@ -13,7 +13,7 @@ void main() {
     int karsilastirma;
     karsilastirma = (isim.compareToIgnoreCase(sifre));
 
-    if ((karsilastirma == -6) || (karsilastirma < -6)) {
+    if ((karsilastirma == 0) || (karsilastirma < 0) {
         IO.println("Şifreniz isminizi içeremez, lütfen daha güçlü bir şifre oluşturun.");
     }
       else{
